@@ -25,6 +25,30 @@ jobs:
         run: |
           node --version
           npm --version
+  
+  # Job Name : verification
+  verification:
+    # Runner - Where to run the job
+    runs-on: ubuntu-latest
+    # Steps to run - to do job (verification)
+    steps:
+      # step 1 - Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      # step 2 - Setup NodeJS
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+        
+      # step 3 - install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # step 4 - build the application
+      - name: Build the application
+        run: npm run build
       
 
 
