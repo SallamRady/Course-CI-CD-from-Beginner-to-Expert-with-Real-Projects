@@ -1,0 +1,20 @@
+{
+  "name": "course-ci-cd-from-beginner-to-expert-with-real-projects",
+  "version": "1.0.0",
+  "description": "Course : CI/CD from Beginner to Expert with Real Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SallamRady/Course-CI-CD-from-Beginner-to-Expert-with-Real-Projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SallamRady/Course-CI-CD-from-Beginner-to-Expert-with-Real-Projects/issues"
+  },
+  "homepage": "https://github.com/SallamRady/Course-CI-CD-from-Beginner-to-Expert-with-Real-Projects#readme"
+}
