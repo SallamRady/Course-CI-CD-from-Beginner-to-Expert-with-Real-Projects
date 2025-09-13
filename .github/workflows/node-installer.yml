@@ -30,6 +30,8 @@ jobs:
   verification:
     # Runner - Where to run the job
     runs-on: ubuntu-latest
+    # Dependencies - what jobs to run before this job
+    needs: installation
     # Steps to run - to do job (verification)
     steps:
       # step 1 - Checkout the code
